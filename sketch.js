@@ -1,5 +1,4 @@
 let datos = [];
-let auxdatos = [];
 
 let y = 80;
 
@@ -59,9 +58,6 @@ function burbuja(){
             }
         }
     }
-    for(i = 0; i < datos.length; i++){
-        auxdatos[i] = datos[i];
-    }
     clear();
     mostrarcan();
 }
@@ -76,9 +72,6 @@ function burbuja_inversa(){
                 datos[j + 1] = aux;
             }
         }
-    }
-    for(i = 0; i < datos.length; i++){
-        auxdatos[i] = datos[i];
     }
     clear();
     mostrarcan();
