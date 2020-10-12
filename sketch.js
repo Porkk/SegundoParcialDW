@@ -1,4 +1,5 @@
 let datos = [];
+let auxdatos = [];
 
 let y = 80;
 
