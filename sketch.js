@@ -85,12 +85,12 @@ function burbuja_inversa(){
 }
 
 function maximo(){
-    let maximo = Math.max.apply(null, auxdatos);
+    let maximo = Math.max.apply(null, datos);
     window.alert("El numero maximo es " + maximo);
 }
 
 function minimo(){
-    let minimo = Math.min.apply(null, auxdatos);
+    let minimo = Math.min.apply(null, datos);
     window.alert("El numero minimo es " + minimo);
 }
 
